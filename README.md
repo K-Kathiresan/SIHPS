@@ -1,92 +1,82 @@
 # Smart India Hackathon Workshop
-## Register Number: 212223110021
-## Name: Kathiresan K
+# Date:24/09/2024
+## Register Number:212223110021
+## Name:Kathiresan K
 ## Problem Title
-E-Waste Facility Locator
+Development of e-Portal for facilitating Case Management Hearing of various types of cases
 ## Problem Description
-Website that tells you the location of the nearest e-waste collection and recycling facility. Offers educational pop-ups on the harmful components of your e-waste and their effects on the environment and human health if not disposed correctly. There could be an option to input the model of your old device and earn credit points relative to the amount of precious metals recovered from the device if disposed correctly.
+Case Management Hearing, known as a Pre-Trial Conference" in other jurisdictions". This application is used for managing case files since filing to disposal and to complete all its related processes. The CMS keeps the records of all the cases filed in Delhi High Court. The system has following features: Filing of Case, Caveat matching, Allocation of case, Daily Case Proceedings, Notice Generation, Case Transfer, Case Status Search, Report, etc.
 ## Problem Creater's Organization
-Ministry of Environment
-
-## Title: "Addressing the Growing Challenge of E-Waste: A Call to Action for Sustainable Management"
-
-## Problem Statement:
-The proliferation of electronic devices has led to a corresponding surge in electronic waste (e-waste), presenting a multifaceted challenge that demands urgent attention. As the Ministry of Environment, it is imperative to acknowledge the adverse environmental and human health impacts associated with improper disposal and inadequate management of e-waste.
-
-## Key Issues
-1.Rapid Growth
-2.Environmental Hazards
-3.Resource Depletion
-4.Informal Recycling Sector
-Propossed Solutions
-1.Awareness and Education
-2.Extended Producer Responsibility (EPR)
-3.Infrastructure Development
-4.Formalization of Informal Sector
+Ministry of Law and Justice
 
 ## Idea
+1.User Authentication and Roles:
+>Secure login for different user roles (judges, lawyers, plaintiffs, defendants, clerks).
+>Role-based access control to ensure data privacy and security.
 
-E-waste management plays an important role in protecting :
+2.Case Management System:
+>Dashboard for tracking case status, upcoming hearings, and deadlines.
+>Digital case files with easy upload and retrieval of documents.
+>Automated notifications and reminders for important dates.
 
-Environment
-Conserving resource
-promoting a healthier and safer world.
-By reducing, reusing, and recycling electronic devices, we can make a positive impact and pave the way for a sustainable future.
+3.Hearing Scheduling and Management:
+>Calendar integration for scheduling hearings.
+>Virtual hearing capabilities with video conferencing tools.
+>Real-time updates on hearing schedules and changes.
 
-![img1](https://github.com/user-attachments/assets/1064f51e-9ddd-4821-8de2-c4ea77bbb515)
+4.Document Management:
+>Secure storage and sharing of legal documents.
+>Version control and audit trails for document changes.
+>E-signature functionality for legal documents.
+
+5.Search and Analytics:
+>Advanced search functionality to quickly find cases and documents.
+>Analytics dashboard for insights on case progress and bottlenecks.
+
+6.User Support and Helpdesk:
+>Integrated helpdesk for user queries and technical support.
+>Tutorials and FAQs to assist users in navigating the portal.
 
 
 ## Proposed Solution / Architecture Diagram
+![Screenshot 2024-09-03 154517](https://github.com/user-attachments/assets/25e64d85-62f0-4889-82a2-2c10a35fffca)
 
-![img2](https://github.com/user-attachments/assets/d44b332e-62ff-4685-875c-13afd5e106ce)
 
 
 ## Use Cases
+![Screenshot 2024-09-03 160812](https://github.com/user-attachments/assets/d204f1f0-fa92-4a78-8d86-05087e27a774)
 
-## Consumer Education and Awareness:
-Use Case: A mobile application that educates consumers about e-waste management, providing information on how to properly dispose of electronic devices, where to recycle them, and the environmental impacts of improper disposal.
 
-## E-Waste Collection and Recycling:
-Use Case: A community-based e-waste collection program where residents can schedule pickups for their old electronics or drop them off at designated collection points.
 
-## Corporate Responsibility and EPR Compliance:
-Use Case: A multinational electronics manufacturer implements an Extended Producer Responsibility (EPR) program, where they take responsibility for the end-of-life disposal of their products. The company offers buy-back or trade-in programs for old devices, refurbishes and resells them, and ensures that any remaining e-waste is recycled in accordance with regulatory standards
-
-## Informal Sector Integration and Capacity Building:
-Use Case: A government-led initiative aimed at formalizing and integrating informal e-waste recyclers into the formal waste management sector. The program provides training on safe handling and recycling techniques, access to protective gear and equipment.
-
-## Policy Development and Stakeholder Engagement:
-Use Case: A coalition of government agencies, industry stakeholders, NGOs, and academia collaborates to develop comprehensive e-waste management policies and regulations. The coalition conducts stakeholder consultations, policy analysis, and impact assessments to ensure that the policies are practical, effective, and inclusive.
 
 ## Technology Stack
+>canvas 
+>staruml
+>Git , Postman or Insomnia
+>google  chrome
 
-## Mobile Applications:
-Platform: iOS, Android
 
-Description:
-Develop mobile applications for consumers to schedule e-waste pickups, locate nearby collection points, access educational resources, and track the lifecycle of their disposed electronics. Additionally, create applications for field workers to log collection data, scan barcodes, and communicate with the central management system.
-
-## Cloud Infrastructure:
-Platform: AWS, Azure, Google Cloud
-
-Description:
-Utilize cloud infrastructure for scalable storage, computing, and data management. Store collected e-waste data, recycling records, customer information, and analytics results in cloud databases. Leverage cloud-based services for real-time data processing, predictive analytics, and machine learning algorithms.
-
-## Internet of Things (IoT) Devices:
-Sensors: RFID, GPS, weight sensors
-
-Description:
-Deploy IoT devices on e-waste collection bins, vehicles, and recycling facilities to track the movement of e-waste throughout the supply chain. Use RFID tags to identify and categorize items, GPS trackers for route optimization and monitoring, and weight sensors for accurate measurement of collected e-waste.
 
 ## Dependencies
-
-Dependencies in e-waste management refer to the interconnected factors that influence the effectiveness and success of e-waste management initiatives.
-
-Regulatory Frameworks
-Public Awareness and Education
-Industry Collaboration
-Infrastructure Development
-Technological Innovation
-Financial Resources
-International Cooperation
-Environmental Considerations
+Creating a budget for developing an e-portal for case management hearings involves considering various factors. Here’s a breakdown of the key components and their estimated costs:
+1. Development Costs
+Backend Development: ₹5,00,000 - ₹10,00,000
+Frontend Development: ₹3,00,000 - ₹7,00,000
+Database Setup: ₹1,00,000 - ₹3,00,000
+API Integrations: ₹2,00,000 - ₹5,00,000
+2. Infrastructure Costs
+Cloud Hosting: ₹1,00,000 - ₹3,00,000 per year
+Storage Solutions: ₹50,000 - ₹1,50,000 per year
+Security Measures: ₹1,00,000 - ₹2,00,000
+3. Licensing and Tools
+Software Licenses: ₹1,00,000 - ₹2,00,000
+Development Tools: ₹50,000 - ₹1,00,000
+4. Operational Costs
+Technical Support: ₹2,00,000 - ₹4,00,000 per year
+Maintenance and Updates: ₹1,00,000 - ₹3,00,000 per year
+Training and Documentation: ₹50,000 - ₹1,00,000
+5. Additional Features
+AI and Automation Tools: ₹2,00,000 - ₹5,00,000
+Analytics and Reporting: ₹1,00,000 - ₹3,00,000
+Total Estimated Budget
+The total estimated budget can range from ₹20,00,000 to ₹45,00,000 depending on the complexity and scale of the project.
